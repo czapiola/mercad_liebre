@@ -317,6 +317,8 @@ transition: background-color .5s;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    flex-direction: row;
+    align-items: center;
 }
 .items-checkbox{
     margin: 15px;
