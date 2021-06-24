@@ -89,6 +89,7 @@ body{
     width: 100%;
     background-color: #ebebeb;
 }
+
 .fas fa-truck{
     display: block;
     font-size: 16px;
@@ -102,6 +103,7 @@ body{
     right: 20px;
     top: -15px;  
 }
+
 .container-products{
     display: flex;
     flex-direction: row;
@@ -371,9 +373,25 @@ padding: 8px;
 
 
 /*MEDIAS QUERYS*/
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .main-header-top-bar {
         display: flex;
         justify-content: space-between;
+    }
+}
+@media (min-width: 361px){
+    .hamburguer-buttom{
+        display: none;
+    }
+    .container-products:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .rigth-navbar{
+        display: none;
+    }
+ }
+ @media (max-width: 361px) {
+    .buscador{
+        display: none;
     }
 }
